@@ -1,0 +1,8 @@
+# Dockerfile for deploying n8n on Render
+FROM n8nio/n8n
+
+ENV N8N_BASIC_AUTH_ACTIVE=true
+ENV N8N_BASIC_AUTH_USER=echohub001
+ENV N8N_BASIC_AUTH_PASSWORD=Bpanther88
+
+EXPOSE 5678
