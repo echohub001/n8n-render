@@ -1,5 +1,5 @@
 services:
   - type: redis
-    name: n8n-redis
+    name: n8n_redis
     plan: starter
     maxmemoryPolicy: allkeys-lru
