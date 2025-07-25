@@ -3,3 +3,6 @@ services:
     name: n8n_redis
     plan: starter
     maxmemoryPolicy: allkeys-lru
+    ipAllowList:
+      - source: 0.0.0.0/0
+        description: Allow all IPs (dev)
